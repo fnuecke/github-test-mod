@@ -1,0 +1,22 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "MIT"
+[[mods]]
+modId = "github-test"
+version = "${file.jarVersion}"
+displayName = "Github Test Mod"
+description = '''
+Test mod for Github actions + package server.
+'''
+[[dependencies.examplemod]] #optional
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.examplemod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,1.17)"
+ordering = "NONE"
+side = "BOTH"
